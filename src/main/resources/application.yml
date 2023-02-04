@@ -1,0 +1,20 @@
+server:
+  port: 8082
+  
+spring:
+  application:
+    name: DC-API
+  datasource:
+    username: null
+    password: null
+    url: http://localhost:1111/
+  boot:
+    admin:
+      client:
+        url:  null 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+         
